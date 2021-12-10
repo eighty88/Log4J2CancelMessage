@@ -1,0 +1,6 @@
+name: Log4j2CancelMessage
+version: '${project.version}'
+main: com.github.eighty88.log4j2.CancelMessage
+api-version: 1.15
+authors: [ eight_y_88 ]
+description: Put a message that exploits the Log4J2 vulnerability as a secure message on the server side.
