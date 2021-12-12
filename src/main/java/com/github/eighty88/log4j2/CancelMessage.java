@@ -12,7 +12,7 @@ public final class CancelMessage extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new Listener() {
-            final Pattern pattern = Pattern.compile("\\$\\{.*}");
+            final Pattern pattern = Pattern.compile("\\$\\{jdni:([^}]*)\\}");
 
             @EventHandler
             public void onPlayerChat(AsyncPlayerChatEvent e) {
